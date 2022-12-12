@@ -1,0 +1,2 @@
+deployment_name = "YOUR-GENERIC-DEPLOYMENT-NAME"
+hcloud_token = "YOUR-HCLOUD-API-KEY"
