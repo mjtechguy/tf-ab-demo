@@ -1,0 +1,5 @@
+# Ignore these files from git commit
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+*.tfvars
