@@ -1,0 +1,28 @@
+# General User variables
+# Name this something unique like `ab-021523` or `ab-mj`
+deployment_name = "ab"
+deployment_domain = "dsodemo.org"
+dns_service = "azure"
+user = "abadmin"
+
+
+# Azure variables
+# Set to "true" to enable Azure. Set to "false" to disable Azure. 
+azure_enabled = "true"
+# This below variable is ALWAYS required as DNS records are created on Azure DNS
+azure_subscription_id = "<YOUR-SUBSCRIPTION-ID>"
+# This below variable is ALWAYS required as DNS records are created on Azure DNS
+azure_client_id = "<YOUR-CLIENT-ID>"
+# This below variable is ALWAYS required as DNS records are created on Azure DNS
+azure_client_secret = "<YOUR-CLIENT-SECRET>"
+# This below variable is ALWAYS required as DNS records are created on Azure DNS
+azure_tenant_id = "<YOUR-TENANT-ID>"
+# VM Count can be 1-4. Quota limits will not allow more than 4 total per region at this time.
+azure_vm_count = 1
+# Use `eastus` or `eastasia` or `australiaeast`
+azure_region = "eastus"
+azure_compute_size = "Standard_F16s_v2"
+# You should change the 2nd octet from 211 to something else between 0-254
+azure_address_space = "10.211.0.0/16"
+# Update the 2nd octet to what you changed the address_space to
+azure_address_prefix = "10.211.211.0/24"

@@ -5,3 +5,5 @@
 *.tfvars
 .terraform.lock.hcl
 .talismanrc
+*.terraform
+*/generated_files/

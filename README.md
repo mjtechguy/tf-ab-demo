@@ -1,16 +1,5 @@
-# Terraform Example Deployment
+## Terraform Learning
 
-# Resources Includes
-- Hetzner
+See the README docs in each specific directory for how to use this.
 
-# Deployment Steps
-
-1. Clone this repo
-2. Copy `terraform.tfvars.dist` to `terraform.tfvars` and update with your information
-3. Run `terraform init` and `terraform plan`
-4. Once satisfied with what it will deploy, run `terraform apply`
-
-# Teardown
-
-1. In the directory where you deployed, run `terraform destroy`
-
+These are NOT production grade and just examples of how to use Terraform.
