@@ -1,7 +1,7 @@
 # General User variables
 # Name this something unique like `ab-021523` or `ab-mj`
 deployment_name = "ab"
-deployment_domain = "dsodemo.org"
+deployment_domain = "az.dsodemo.org"
 dns_service = "azure"
 user = "abadmin"
 
@@ -21,7 +21,8 @@ azure_tenant_id = "<YOUR-TENANT-ID>"
 azure_vm_count = 1
 # Use `eastus` or `eastasia` or `australiaeast`
 azure_region = "eastus"
-azure_compute_size = "Standard_F16s_v2"
+azure_compute_size = "Standard_B2s"
+azure_root_disk_size = "30"
 # You should change the 2nd octet from 211 to something else between 0-254
 azure_address_space = "10.211.0.0/16"
 # Update the 2nd octet to what you changed the address_space to

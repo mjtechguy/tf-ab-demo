@@ -5,7 +5,7 @@ output "server_ips" {
 
 output "server_dns" {
   description = "DNS names of the provisioned VMs"
-  value       = "${azurerm_dns_a_record.azure_demo_dns[*].name}.${var.deployment_domain}"
+  value       = "${azurerm_dns_a_record.azure_demo_dns[*].name}"
 }
 
 output "private_key_path" {
